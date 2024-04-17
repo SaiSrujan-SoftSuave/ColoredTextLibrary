@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WavyTextCompose"
 include(":app")
+include(":coloredtext-compose")

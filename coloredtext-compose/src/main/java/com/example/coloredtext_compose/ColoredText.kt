@@ -1,4 +1,4 @@
-package com.example.wavytextcompose
+package com.example.coloredtext_compose
 
 
 import androidx.compose.foundation.layout.Row
