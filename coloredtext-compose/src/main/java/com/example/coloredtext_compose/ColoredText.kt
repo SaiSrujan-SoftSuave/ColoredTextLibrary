@@ -21,8 +21,8 @@ import androidx.compose.ui.unit.TextUnit
 fun ColoredText(
     modifier: Modifier = Modifier,
     text: String,
-    textColor: Color = Color.Black,
-    fillColor: Color = Color.Blue,
+    textColor: Color  ,
+    fillColor: Color ,
     offSet: Float = 0.5f,
     fontSize: TextUnit = TextUnit.Unspecified,
     fontStyle: FontStyle? = null,
@@ -60,8 +60,8 @@ fun calLen(len: Int, percentage: Float): Int {
 }
 
 
-@Preview(showSystemUi = true)
+
 @Composable
 fun PreviewText(modifier: Modifier = Modifier) {
-    ColoredText(text = "Hello World", textColor = Color.Blue, fillColor = Color.Gray, offSet = 0.2f)
+//    ColoredText(text = "Hello World", textColor = Color.Blue, fillColor = Color.Gray, offSet = 0.2f)
 }
