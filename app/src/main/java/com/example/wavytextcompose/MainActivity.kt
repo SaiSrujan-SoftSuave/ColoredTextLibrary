@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
                             .wrapContentSize()
                             .padding(innerPadding) // Adjust padding as needed
                     ) {
+                        ColoredText()
                     }
                 }
             }
